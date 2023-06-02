@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(20,45,10,1) 100%);
+    font-size: 10px;
+    text-align: center;
+}
+.blok{
+    display: flex;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.wiecej{
+    color: white;
+    text-align: center;
+    width: 1000px;
+    height: 500px;
+    font-size: 31px;
+    background: gray;
+    margin-top: 225px;
+    border-radius: 25px;
+    text-shadow: black 0.2em 0.2em 0.2em
+}
+img{
+    margin-top:220px;
+    margin-right:-230px;
+}

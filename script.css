@@ -1,0 +1,61 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(20,45,10,1) 100%);
+    font-size: 10px;
+    text-align: center;
+}
+img{
+    margin: 150px;
+    opacity: 0.5;
+    width: 425px;
+    height: 600px;
+}
+img:hover{
+    -webkit-transition: all 1s;
+    -webkit-transform: scale(1.1);
+    opacity: 1;
+}
+.blok{
+    display: flex;
+    background-size: cover;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.opis{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin:100px;
+    text-shadow: black 0.2em 0.2em 0.2em    
+}
+
+
+
+.ebook{
+    width: 350px;
+    height:50px;
+    background-color: red;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+}
+.wiecej{
+    width: 350px;
+    height:50px;
+    background-color: blue;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+}
+.blok1{
+    margin-left: 180px;
+    margin-top: 10px;
+    font-size: 22px;
+    margin-top: 30px;
+}
