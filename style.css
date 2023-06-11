@@ -7,19 +7,20 @@ body{
     background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(20,45,10,1) 100%);
     font-size: 10px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 img{
     margin: 150px;
     opacity: 0.5;
     width: 425px;
     height: 600px;
+    transition: all 1s ease-in-out;
 }
 img:hover{
-    -webkit-transition: all 1s;
-    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
     opacity: 1;
 }
-.blok{
+.container{
     display: flex;
     background-size: cover;
     flex-wrap: wrap;
@@ -27,35 +28,36 @@ img:hover{
     align-items: center;
     flex-direction: row;
 }
-.opis{
+.description{
     text-align: center;
     font-size: 30px;
     color: white;
     margin:100px;
     text-shadow: black 0.2em 0.2em 0.2em    
 }
-
-
-
-.ebook{
+.nextSiteBtn{
     width: 350px;
-    height:50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    text-decoration: none;
+}
+#ebook{
     background-color: red;
-    border-radius: 25px;
-    margin: 10px;
-    color: white;
 }
-.wiecej{
-    width: 350px;
-    height:50px;
+#wiecej{
     background-color: blue;
-    border-radius: 25px;
-    margin: 10px;
-    color: white;
 }
-.blok1{
-    margin-left: 180px;
+.buttonsContainer{
     margin-top: 10px;
     font-size: 22px;
     margin-top: 30px;
+    display: flex;
+    justify-content: center;
 }
