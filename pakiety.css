@@ -1,12 +1,9 @@
-* {
-    margin: 0px;
-    padding: 0px;
-}
 body{
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 40%, rgba(20,45,10,1) 100%);
     font-size: 10px;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
 }
 .blok{
     display: flex;
@@ -15,4 +12,30 @@ body{
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
+    margin-top: 150px;
+}
+.pakiet{
+    width: 400px;
+    height: 600px;
+    background: rgb(59, 55, 55);
+    border-radius: 50px;
+    transition: all 0.5s ease-in-out;
+}
+.pakiet:hover{
+    transform: scale(1.05);
+}
+.tytul{
+    color: white;
+    font-size: 28px;
+    margin-top:10px;
+}
+.opis{
+    color: white;
+    font-size: 15px;
+    margin-top:10px;
+}
+.zawartosc{
+    color: white;
+    font-size: 17px;
+    margin-top:10px;
 }
